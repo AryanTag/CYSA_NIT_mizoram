@@ -8,9 +8,9 @@ Be sure to check out our app at <link>. Also checkout the [Hands](https://google
 
 # CYSA Details
 
-*Monitoring Screen-on time:- Using the facemesh model of Mediapipe, an open source framework from Google, we intend to track user’s screen time.
+* Monitoring Screen-on time:- Using the facemesh model of Mediapipe, an open source framework from Google, we intend to track user’s screen time.
 
-*Monitoring screen eye distance:- We nudge the user in some form in case the user comes closer than the minimum recommended screen distance.
+* Monitoring screen eye distance:- We nudge the user in some form in case the user comes closer than the minimum recommended screen distance.
 
 	*Implementation*
 	We did this by tracking the landmarks of face which is returned by 	the model.
@@ -22,7 +22,7 @@ Be sure to check out our app at <link>. Also checkout the [Hands](https://google
 <img src="aryan.png" alt="drawing" width="400"/> 
 
 
-*Using Hands package of MediaPipe, a palm and finger Detection model, we are tracking the fingers of user in real time. If the landmarks of fingers come inside the landmarks of lips of face the user will get a warning sound. *We are also checking the z index returned by the model to make sure that the alarm goes off only if the finger is actually in lip area and not just in 2D*.
+* Using Hands package of MediaPipe, a palm and finger Detection model, we are tracking the fingers of user in real time. If the landmarks of fingers come inside the landmarks of lips of face the user will get a warning sound. *We are also checking the z index returned by the model to make sure that the alarm goes off only if the finger is actually in lip area and not just in 2D*.
 <br>
 <img src="prakhar.png" alt="drawing" width="400"/> 
 
@@ -38,15 +38,15 @@ Be sure to check out our app at <link>. Also checkout the [Hands](https://google
 
 ## DEVELOPMENT SETUP
 
-*You need Node.js to be installed on your system. You can download Node.js and follow the instructions on how to do that on nodejs.org
+* You need Node.js to be installed on your system. You can download Node.js and follow the instructions on how to do that on nodejs.org
 
-*Clone or download this repository
+* Clone or download this repository
 
-*Open your terminal
+* Open your terminal
 
-*With the command line go to the folder you just cloned/downloaded
+* With the command line go to the folder you just cloned/downloaded
 
-*Type ‘node server.js', so your server starts running
+* Type ‘node server.js', so your server starts running
 Go to the browser and access http://127.0.0.1:3000 / to use the website.
 
 
